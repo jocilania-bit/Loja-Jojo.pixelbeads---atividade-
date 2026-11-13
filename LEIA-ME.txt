@@ -1,0 +1,27 @@
+# Jojo.pixelbeads | Desenvolvimento Web I — Atividade da Área Administrativa
+
+## 1. Descrição da Atividade
+Esta aplicação web foi desenvolvida como parte da disciplina de Desenvolvimento Web I, com o objetivo de estruturar a área de administração de um e-commerce artesanal de *Perler Beads* (**Jojo.pixelbeads**). O projeto contempla páginas de autenticação, painéis de gestão e formulários de cadastro para objetos e utilizadores[cite: 8, 9, 10, 11, 14].
+
+## 2. Instruções de Execução
+Para executar o projeto localmente:
+1. Descompacte o arquivo ZIP enviado ou clone o repositório do GitHub.
+2. Abra a pasta principal do projeto no **Visual Studio Code**[cite: 14].
+3. Abra o ficheiro `index.html` diretamente num navegador web atualizado ou utilize uma extensão de servidor local (como *Live Server* / *Five Server*)[cite: 14].
+
+## 3. Estrutura do Sistema e Páginas Implementadas
+O repositório está organizado com os seguintes componentes:
+
+### Área Pública:
+- **`index.html`**: Página principal com banner e apresentação da coleção de chaveiros[cite: 13, 14].
+- **`cadastro.html`**: Interface pública interativa de produtos com suporte a armazenamento local[cite: 12].
+- **`detalhes.html`**: Visualização detalhada de um produto[cite: 12].
+- **`sobre.html`**: Página institucional com informações sobre a autora[cite: 15].
+
+### Área Administrativa:
+- **`admin.html`**: Ecrã de login e autenticação administrativa[cite: 8].
+- **`admin-objetos.html`**: Formulário de cadastro/edição e tabela com listagem de objetos (incluindo botões de edição e exclusão)[cite: 9].
+- **`admin-usuarios.html`**: Formulário de cadastro/edição e tabela com a listagem de utilizadores do sistema[cite: 10].
+
+### Estilos:
+- **`css/style.css`**: Folha de estilos centralizada que padroniza o design visual de todo o site.
