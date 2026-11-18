@@ -9,18 +9,33 @@
 <body>
   <header class="topo">
     <a class="marca" href="index.html">🧸 Jojo.pixelbeads</a>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="index.html#colecao">Produtos</a>
-      <a href="cadastro.html">Cadastro</a>
-      <div class="menu-admin">
-        <a href="admin.html">Admin</a>
-        <div class="submenu">
-          <a href="admin.html">Login</a>
-          <a href="admin-objetos.html">Cadastro de objetos</a>
-          <a href="admin-usuarios.html">Cadastro de usuários</a>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="abrir-menu">
+        ☰
+    </label>
+
+    <nav class="nav-menu">
+
+        <label for="menu-toggle" class="fechar-menu">
+            ✕
+        </label>
+
+        <a href="index.html">Início</a>
+        <a href="index.html#colecao">Produtos</a>
+        <a href="cadastro.html">Cadastro</a>
+
+        <div class="menu-admin">
+            <a href="admin.html">Admin</a>
+
+            <div class="submenu">
+                <a href="admin.html">Login</a>
+                <a href="admin-objetos.html">Cadastro de objetos</a>
+                <a href="admin-usuarios.html">Cadastro de usuários</a>
+            </div>
         </div>
-      </div>
+
     </nav>
   </header>
 
